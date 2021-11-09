@@ -4,7 +4,7 @@ import math
 import operator
 from sklearn.metrics import confusion_matrix
 
-# Chi tiết về dữ liuej mẫu https://archive.ics.uci.edu/ml/datasets/iris
+# Chi tiết về dữ liệu mẫu https://archive.ics.uci.edu/ml/datasets/iris
 # Sửa lại tên file và tham số sep dựa vào ký tự ngăn cách các từ, nếu dữ liệu không có tên cột thì thêm tham số header = None
 train = pd.read_csv("input.txt" , sep = ",") 
 test = pd.read_csv("output.txt" , sep = ",") 
@@ -51,7 +51,7 @@ class KNeighborsClassifier:
         max_ids, max_value = max(labels_count, key=lambda item: item[1])
         return max_ids
     
-    
+    # Truyền vào X_train và y_train để fit cho class
     def fit(self , X , y):
         self.X_train = X
         self.y_train = y
