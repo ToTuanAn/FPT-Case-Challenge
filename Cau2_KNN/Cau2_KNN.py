@@ -51,7 +51,7 @@ class KNeighborsClassifier:
         max_ids, max_value = max(labels_count, key=lambda item: item[1])
         return max_ids
     
-    
+    # Truyền vào X_train và y_train để fit cho class
     def fit(self , X , y):
         self.X_train = X
         self.y_train = y
