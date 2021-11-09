@@ -2,7 +2,7 @@
 ## Cách chạy code
 Tải github repository
 
-'''git clone https://github.com/ToTuanAn/FPT-Case-Challenge
+`git clone https://github.com/ToTuanAn/FPT-Case-Challenge`
 
 Câu 1: chạy file ***Cau1_Linear_Regression.py*** 
 
@@ -32,4 +32,5 @@ Link iris dataset: https://archive.ics.uci.edu/ml/datasets/iris
 Điểm yếu của code nhóm cài là chưa chọn được số điểm gần nhất (KNN) tối ưu nhất cho các dataset khác nhau, để cải tiến điểm yếu này nhóm đề xuất xài phương pháp grid search, với grid search ta sẽ thử các tham số KNN phổ biến như 10, 50, 100, 500,..., đánh giá độ hiệu quả của các tham số bằng k-fold Cross-Validation sau đó chọn tham số có độ chính xác cao nhất và chạy cho tập test, k-fold Cross-Validation là chia tập validation thành nhiều tập con khác nhau và lấy độ chính xác trung bình trong các tập con đấy, với cách làm này ta sẽ được độ chính xác chuẩn hơn, tránh may rủi.
 
 Link đọc grid search: https://scikit-learn.org/stable/modules/grid_search.html
+
 Link đọc k-fold Cross-Validation: https://machinelearningmastery.com/k-fold-cross-validation/
