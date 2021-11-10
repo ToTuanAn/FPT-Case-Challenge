@@ -11,8 +11,11 @@ Câu 2: chạy file ***Cau2_KNN.py***
 ## Câu 1
 **Định nghĩa**
 
+"Hồi quy tuyến tính" là một phương pháp thống kê để hồi quy dữ liệu với biến phụ thuộc có giá trị liên tục trong khi các biến độc lập có thể có một trong hai giá trị liên tục hoặc là giá trị phân loại. Nói cách khác "Hồi quy tuyến tính" là một phương pháp để dự đoán biến phụ thuộc (Y) dựa trên giá trị của biến độc lập (X).
+
 **Tóm tắt những gì đã làm**
 
+Nhóm đã cài đặt phương thức build_linear_regression_model với tham số truyền vào là input_dim (chiều của input). Sử dụng duy nhất một fully-connected layer trong thư viện keras bằng cách dùng hàm keras.layer.Dense với bias được khởi tạo bằng hàm tf.keras.initializers.GlorotNormal(), phương thức sẽ cho ra một model có kiểu dữ liệu là keras.model.Model 
 
 ## Câu 2
 
