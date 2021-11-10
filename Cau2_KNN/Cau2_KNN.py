@@ -79,7 +79,7 @@ class KNeighborsClassifier:
 
 # Chọn số điểm gần nhất trong trường hợp này là 4 
 model = KNeighborsClassifier(knn = 4) 
-res = model.fit(X_train , Y_train)
+res = model.fit(X_train , y_train)
 
 # Chạy model trên tập test và kiểm tra độ chính xác
 y_predict  = model.predict(X_test) 
