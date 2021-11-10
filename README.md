@@ -17,6 +17,12 @@ Câu 2: chạy file ***Cau2_KNN.py***
 
 Nhóm đã cài đặt phương thức build_linear_regression_model với tham số truyền vào là input_dim (chiều của input). Sử dụng duy nhất một fully-connected layer trong thư viện keras bằng cách dùng hàm keras.layer.Dense với bias được khởi tạo bằng hàm tf.keras.initializers.GlorotNormal(), phương thức sẽ cho ra một model có kiểu dữ liệu là keras.model.Model 
 
+Link diabetes dataset: https://archive.ics.uci.edu/ml/datasets/diabetes
+
+**Điểm yếu và cách khắc phục**
+
+Thuật toán Linear Regression được xây dựng khá đơn giản với một hàm tuyến tính duy nhất nên chạy khá nhanh. Tuy nhiên, thuật toán không đủ chiều sâu để chạy những datasets phức tạp nên ta phải xây dựng những model có nhiều layer hơn để khắc phục được điểm yếu đó (Neural Network)
+
 ## Câu 2
 
 

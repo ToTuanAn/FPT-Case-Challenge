@@ -44,4 +44,5 @@ plt.plot(hst.history['loss'], 'g')
 plt.plot(hst.history['val_loss'], 'r')
 
 #kết quả r2 của model
+print("Kết quả thuật toán: ")
 print(r2_score(y_pred=model.predict(X), y_true=Y))
