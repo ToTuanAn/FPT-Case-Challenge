@@ -16,7 +16,6 @@ def get_data():
     data = pd.read_csv('input.txt' , sep = ',')
     features = data.loc[: , data.columns.drop(['id' , 'target'])].values # lấy mọi cột trừ cột id và target
     labels = data.loc[: , 'target'].values # lấy cột target
-    labels = np.array(diabetes.target)
     labels = np.reshape(labels, (-1,1))
     labels = normalise(labels)
     return features,labels
