@@ -26,7 +26,7 @@ K-nearest neighbor là một trong những thuật toán supervised-learning đ�
 
 **Tóm tắt những gì đã làm**
 
-Nhóm đã cài mô hình K-nearest neighbor với số điểm gần nhất (KNN) tự chọn, với một điểm mới cần gán nhãn thuật toán của nhóm sẽ xác định k điểm gần nhất với điểm đó theo độ đo L2, gán nhãn điểm đó theo nhãn của phần lớn k điểm gần nhất. Mô hình đã được thử trên tập dữ liệu iris dataset với KNN là 4 và thu được độ chính xác tới 94%.
+Nhóm đã cài mô hình K-nearest neighbor với số điểm gần nhất (KNN) tự chọn, với một điểm mới cần gán nhãn thuật toán của nhóm sẽ xác định k điểm gần nhất với điểm đó theo độ đo L2, gán nhãn điểm đó theo nhãn của phần lớn k điểm gần nhất. Mô hình đã được thử trên tập dữ liệu iris dataset với KNN là 4 và thu được độ chính xác tới 95%.
 
 Link iris dataset: https://archive.ics.uci.edu/ml/datasets/iris
 
