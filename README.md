@@ -15,7 +15,7 @@ Câu 2: chạy file ***Cau2_KNN.py***
 
 **Tóm tắt những gì đã làm**
 
-Nhóm đã cài đặt phương thức build_linear_regression_model với tham số truyền vào là input_dim (chiều của input). Sử dụng duy nhất một fully-connected layer trong thư viện keras bằng cách dùng hàm keras.layer.Dense với bias được khởi tạo bằng hàm tf.keras.initializers.GlorotNormal(), phương thức sẽ cho ra một model có kiểu dữ liệu là keras.model.Model. Model đã được thử nghiệm trên tập dữ liệu diabetes với 200 epoch và thu được chỉ số R2 là 0,49 và biểu đồ loss như hình.
+Nhóm đã cài đặt phương thức build_linear_regression_model với tham số truyền vào là input_dim (chiều của input). Sử dụng duy nhất một fully-connected layer trong thư viện keras bằng cách dùng hàm keras.layer.Dense với bias được khởi tạo bằng hàm tf.keras.initializers.GlorotNormal(), phương thức sẽ cho ra một mô hình có kiểu dữ liệu là keras.model.Model. Mô hình đã được thử nghiệm trên tập dữ liệu diabetes với 200 epoch và thu được chỉ số R2 là 0,49 và biểu đồ loss như hình.
 
 ![Loss](https://user-images.githubusercontent.com/76698991/141059682-c3c19ce2-5f58-4c5d-b34c-df7b43a0b7ab.png)
 
